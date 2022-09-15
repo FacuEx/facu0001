@@ -63,7 +63,7 @@ nav ul{
     padding: 5px;
     cursor: pointer;
 }
-/*+++++++++++++++inicio++++++++++++++++*/
+/*+++++++++++++++index++++++++++++++++*/
 h1{
     color: #000000;
     font-size: 100px;
@@ -80,13 +80,32 @@ h1{
     justify-content: space-evenly;
 }
 
-.fondo{
-    background-image:url(../imagenes/Inicio11.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%;
-    height: 100%;
+.inicio_img{
+    background-image: linear-gradient(#95fbff , rgb(44, 44, 44));
 }
+
+.row img{
+    border:5px solid black;
+    width: 600px;
+    height: 500px;
+}
+
+.row{
+    --bs-gutter-x: 33.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 30px;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
 /*+++++++++++++++++seccion anime+++++++++++++++++++++*/
 /*++++titulos++++++*/
 .texto02 h1{
@@ -114,22 +133,24 @@ h1{
 }
 
 /*+++++++++imagenes de saga+++++++++*/
-.pres{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 28px;
-    justify-items: center;
+.carousel-item img{
+    height: 850px;
+    width: auto;
 }
 
-.pres img{
-    height: 470px;
-    width: 405px;
-    margin: 25px;
-    padding: 10px;
-    border-radius: 35px;
-    box-shadow: 10px 10px 25px black;
+.carousel-inner {
+    border: 4px solid rgb(9, 9, 9);
+    border-radius: 40px;
 }
+
+.carousel-caption p{
+    font-size: 25px;
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+}
+
 /*+++++++++fin de imagenes de saga+++++++*/
 /*+++++imagenes+++++*/
 .anim01{
@@ -403,6 +424,11 @@ footer{
     
     nav ul{
         gap: 5px;
+    }
+
+    .inicio_img img{
+        width: 600px;
+        height: 569px;
     }
 
     /*++++++++++++++++++anime-manga+++++++++++++++++*/
