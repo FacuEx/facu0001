@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -80,30 +81,10 @@ h1{
     justify-content: space-evenly;
 }
 
-.inicio_img{
-    background-image: linear-gradient(#95fbff , rgb(44, 44, 44));
-}
+.card-img-top{
+    width: 633px;
+    height:356px;
 
-.row img{
-    border:5px solid black;
-    width: 600px;
-    height: 500px;
-}
-
-.row{
-    --bs-gutter-x: 33.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 20px;
-    padding: 30px;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 
 /*+++++++++++++++++seccion anime+++++++++++++++++++++*/
@@ -132,7 +113,30 @@ h1{
     margin: auto;
 }
 
-/*+++++++++imagenes de saga+++++++++*/
+.col-md-4 img{
+    width: 200px;
+    height: 200px;
+}
+
+.h5, h5 {
+    font-size: 2.25rem;
+}
+/*++++++++++++++episodios++++++++++++++*/
+.card-body p{
+    font-size: 20px;
+}
+
+.col-md-4 img {
+    width: 210px;
+    height: 200px;
+    margin: 10px;
+}
+.img-fluid {
+    max-width: 95%;
+    height: auto;
+}
+
+/*+++++++++imagenes de saga - carousel+++++++++*/
 .carousel-item img{
     height: 850px;
     width: auto;
@@ -151,28 +155,13 @@ h1{
     font-size: 50px;
 }
 
-/*+++++++++fin de imagenes de saga+++++++*/
-/*+++++imagenes+++++*/
-.anim01{
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+/*++++++++++++++pagination+++++++++++++++++*/
+.contenedor_navi{
+    display: flex;
+    justify-content: center;
 }
 
-.anim01 img{
-    margin: 8px;
-    width: 350px;
-    height: 480px;
-    border-radius: 35px;
-    box-shadow: 10px 10px 25px;
-    
-}
-/*+++++fin de iamgenes+++++*/
 
-.articulo h2{
-    font-size: 55px;
-} 
 
 /*++++++++++Manga+++++++++++++++++*/
 
