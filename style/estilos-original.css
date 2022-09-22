@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+/*+++++++++++menu de navegación++++++++++*/
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar{
+    width: auto;
+    margin: auto;
+    padding: 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 15px;
+    padding: 10px;
+    background-color: #fa3f3f;
+    border: 4px solid #b50606;
+    font-size: 35px;
+    border-radius: 50px;
+    width:auto;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Lobster', cursive;
+}
+
+.contenedor{
+    border: 7px inset #b50606;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200%;
+    background-color: #FFEA95;
+    background-image: linear-gradient(43deg, rgb(188, 239, 247), rgb(0, 165, 247), rgb(240, 45, 10));
+
+}
+
+.logo{
+    height:100px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+/*+++++++++++++++index++++++++++++++++*/
+h1{
+    color: #000000;
+    font-size: 100px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-img-top{
+    width: 633px;
+    height:356px;
+
+}
+
+/*+++++++++++++++++seccion anime+++++++++++++++++++++*/
+/*++++titulos++++++*/
+.texto02 h1{
+    color: #e6e6e6; 
+    text-align: center;
+    font-size: 70px;
+    background-color: #FFEA95;
+    background-image: linear-gradient(45deg, rgb(43, 43, 46),rgb(11, 97, 246));
+    border: 7px inset #fbfbfb;
+    font-family: 'Lobster', cursive;
+    padding: 15px;
+    margin: auto;
+ }
+
+.sagas h2{
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 70px;
+    background-color: #FFEA95;
+    background-image: linear-gradient(45deg, rgb(43, 43, 46),rgb(11, 97, 246));
+    border: 7px inset #fbfbfb;
+    font-family: 'Lobster', cursive;
+    padding: 15px;
+    margin: auto;
+}
+
+.col-md-4 img{
+    width: 200px;
+    height: 200px;
+}
+
+.h5, h5 {
+    font-size: 2.25rem;
+}
+/*++++++++++++++episodios++++++++++++++*/
+.card-body p{
+    font-size: 20px;
+}
+
+.col-md-4 img {
+    width: 210px;
+    height: 200px;
+    margin: 10px;
+}
+.img-fluid {
+    max-width: 95%;
+    height: auto;
+}
+
+/*+++++++++imagenes de saga - carousel+++++++++*/
+.carousel-item img{
+    height: auto;
+    width: auto;
+}
+
+.carousel-inner {
+    border: 4px solid rgb(9, 9, 9);
+    border-radius: 40px;
+}
+
+.carousel-caption p{
+    font-size: 25px;
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+}
+
+/*++++++++++++++pagination+++++++++++++++++*/
+.contenedor_navi{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*++++++++++Manga+++++++++++++++++*/
+
+.texto02 h1{
+    color: #e6e6e6; 
+    text-align: center;
+    font-size: 70px;
+    background-color: #FFEA95;
+    background-image: linear-gradient(45deg, rgb(43, 43, 46),rgb(11, 97, 246));
+    border: 7px inset #fbfbfb;
+    font-family: 'Lobster', cursive;
+    padding: 15px;
+    margin: auto;
+ }
+
+.capitulos ul li a{
+    background-color: #57c5f4;
+    border: 2px solid rgb(18, 84, 227);
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+.capitulos ul{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mang01{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mang01 img{
+    margin: 8px;
+    width: 350px;
+    height: 480px;
+    box-shadow: 10px 10px 25px black;
+}
+
+
+
+
+/*++++++++++pagina peliculas++++++++++++*/
+.order h1{
+    color: #FFEA95;
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    background-image: linear-gradient(#FFEA95 , rgb(59, 203, 187));
+    border: 7px inset rgb(80, 165, 34);
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenedor_peliculas{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #a9a6a6;
+    padding: 15px;
+}
+
+.contenedor_peliculas a{
+    background-color: #57c5f4;
+    border: 2px solid rgb(18, 84, 227);
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+.contenedor_peliculas img{
+    width: 360px;
+    height: 460px;
+}
+
+.contenedor_peliculas h2{
+    font-size: 12px;
+    text-decoration: none;
+
+}
+/*+++++++++pagina personajes++++++++++++++*/
+.title{
+    color: #ebeae8;
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    justify-content: center;
+    display: flex;
+    background-color: #fc5151;
+    background-image: linear-gradient(#FFEA95 , rgb(59, 203, 187)), url("../imagenes/Brook.png");
+    border: 7px inset rgb(80, 165, 34);
+}
+
+.order2 p{
+    height: auto;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.order2 h2{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    justify-content: center;
+    display: flex;
+}
+
+.order2 h3{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    background-color: #FFEA95;
+    border: 7px inset gold;
+    
+}
+
+.order2 h4{
+    color: firebrick;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.order2 img{
+    width: 390px;
+    height: 570px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 25px black;
+}
+
+
+.number01 h2{
+    background-image: linear-gradient(23deg,#000000d6 , rgb(213, 38, 22));
+    border: 7px inset rgb(182, 12, 12);
+}
+
+.number02 h2{
+    background-image: linear-gradient(23deg,#0f0f0f , rgb(5, 183, 11));
+    border: 7px inset rgb(80, 165, 34);
+}
+
+.number03 h2{
+    background-image: linear-gradient(23deg,#010e35 , rgb(0, 32, 175));
+    border: 7px inset rgb(0, 19, 123);
+}
+
+.number04 h2{
+    background-image: linear-gradient(23deg,#431a00 , rgb(234, 109, 0));
+    border: 7px inset rgb(214, 101, 2);
+}
+
+.number05 h2{
+    background-image: linear-gradient(23deg,#431a00 , rgb(110, 73, 9));
+    border: 7px inset rgb(61, 30, 2);
+}
+
+.number06 h2{
+    background-image: linear-gradient(23deg,#140912 , rgb(213, 9, 141));
+    border: 7px inset rgb(101, 1, 81);
+}
+.number07 h2{
+    background-image: linear-gradient(23deg,#2a052d , rgb(135, 8, 140));
+    border: 7px inset rgb(36, 0, 32);
+}
+.number08 h2{
+    background-image: linear-gradient(23deg,#000608 , rgb(8, 251, 255));
+    border: 7px inset rgb(7, 180, 219);
+}
+.number09 h2{
+    background-image: linear-gradient(23deg,#0a0a0a , rgb(7, 244, 90));
+    border: 7px inset rgb(15, 127, 60);
+}
+
+.img_ps{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo_01{
+    display: none;
+}
+
+
+/*++++++++++iconos++++++++*/
+.img_pers img{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 25px black;
+    cursor: pointer;
+}
+
+.img01{
+    transition: all 2s;
+}
+
+
+.box01:hover{
+    transform: scale(1.4);
+}
+
+.img_pers{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 30px;
+    padding: 25px;
+}
+
+
+
+/*+++++++++++pie de pagina++++++++++++++*/
+footer{
+    background-color: #f56363;
+    border: 7px inset firebrick;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*+++++++++++++++media queries++++++++++++++++++++*/
+
+@media screen and (max-width: 576px){
+    /*+++++++++++++++inicio++++++++++++++++*/
+    .navbar{
+        flex-direction: colmn;
+    }
+    
+    nav ul{
+        gap: 5px;
+    }
+
+    .inicio_img img{
+        width: 600px;
+        height: 569px;
+    }
+
+    /*++++++++++++++++++anime-manga+++++++++++++++++*/
+    .capitulos ul li{
+        display: flex;
+    }
+
+    .anim01{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .pres{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    /*++++++++++++++++++peliculas++++++++++++++*/
+    .article01{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parrafo01 p{
+        width: auto;
+    }
+    
+    .movies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*++++++++++++++++++++personajes++++++++++++++++*/
+    .order2 h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .order2 p{
+       height: auto;
+       font-size: 20px;
+    }
+
+    .img_pers{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul a{
+        display: flex;
+        flex-direction: column;
+    }    
+
+    .img_ps{
+        display: none;
+    }
+
+    .photo_01{
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+    }
+
+
+
+    /*pie de pagina*/
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
