@@ -1,0 +1,47 @@
+.texto02{
+    h1{
+        color: #e6e6e6; 
+        text-align: center;
+        font-size: nth($font-size, 4 );
+        background-color: #FFEA95;
+        background-image: linear-gradient(45deg, rgb(43, 43, 46),rgb(11, 97, 246));
+        border: 7px inset #fbfbfb;
+        font-family: 'Lobster', cursive;
+        padding: 15px;
+        margin: auto;
+    }
+} 
+
+.capitulos{
+    ul{
+        margin: 20px;
+        @extend %disposicion;
+        text-decoration: none;
+        list-style: none;
+        li{
+            a{
+                background-color: #57c5f4;
+                border: 2px solid rgb(18, 84, 227);
+                font-size: 25px;
+                margin: 5px;
+                padding: 5px;
+                border-radius: 25px;
+                text-decoration: none;
+                font-family: 'Lobster', cursive;
+            }
+        }
+    }
+}
+
+.mang01{
+    margin: 30px;
+    @extend %disposicion;
+}
+.mang01{
+    img{
+        margin: 8px;
+        width: 350px;
+        height: 480px;
+        box-shadow: 10px 10px 25px black;
+    }
+}

@@ -1,0 +1,115 @@
+@media screen and (max-width: 576px){
+    /*+++++++++++++++inicio++++++++++++++++*/
+    .navbar{
+        flex-direction: colmn;
+    }
+    
+    nav{
+        ul{
+            gap: 5px;
+        }
+    }
+
+
+    .inicio_img{
+        img{
+            width: 600px;
+            height: 569px;
+        }
+    }
+
+    /*++++++++++++++++++anime-manga+++++++++++++++++*/
+    .capitulos{
+        ul{
+            li{
+                display: flex;
+            }
+        }
+    }
+
+    .anim01{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .pres{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    /*++++++++++++++++++peliculas++++++++++++++*/
+    .article01{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parrafo01{
+        p{
+            width: auto;
+        }
+    }
+    
+    .movies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*++++++++++++++++++++personajes++++++++++++++++*/
+    .order2 {
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .order2{
+        p{
+            height: auto;
+            font-size: 20px;
+        }
+    }
+
+    .img_pers{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav{
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    nav{
+        ul{
+            a{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }    
+
+    .img_ps{
+        display: none;
+    }
+
+    .photo_01{
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+    }
+
+
+
+    /*pie de pagina*/
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

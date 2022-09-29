@@ -1,0 +1,7 @@
+footer{
+    background-color: #f56363;
+    border: 7px inset firebrick;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    @extend %disposicion_02;
+}

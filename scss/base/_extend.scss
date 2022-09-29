@@ -1,0 +1,11 @@
+%disposicion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+%disposicion_02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

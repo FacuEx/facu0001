@@ -1,0 +1,167 @@
+.title{
+    color: #ebeae8;
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    justify-content: center;
+    display: flex;
+    background-color: #fc5151;
+    background-image: linear-gradient(#FFEA95 , rgb(59, 203, 187)), url("../imagenes/Brook.png");
+    border: 7px inset rgb(80, 165, 34);
+}
+
+.order2 {
+    p{
+        height: auto;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+        margin: 15px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.order2 {
+    h2{
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        font-family: 'Lobster', cursive;
+        font-size: nth($font-size, 4 );
+        justify-content: center;
+        display: flex;
+    }
+}
+
+.order2 {
+    h3{
+        font-family: 'Lobster', cursive;
+        font-size: 60px;
+        text-align: center;
+        background-color: #FFEA95;
+        border: 7px inset gold;
+    }
+}
+
+.order2 {
+    h4{
+        color: firebrick;
+        font-family: 'Lobster', cursive;
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+.order2 {
+    img{
+        width: 390px;
+        height: 570px;
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 10px 10px 25px black;
+    }
+}
+
+
+.number01{
+    h2{
+        background-image: linear-gradient(23deg,#000000d6 , rgb(213, 38, 22));
+        border: 7px inset rgb(182, 12, 12);
+    }
+
+}
+
+.number02{
+    h2{
+        background-image: linear-gradient(23deg,#0f0f0f , rgb(5, 183, 11));
+        border: 7px inset rgb(80, 165, 34);
+    }
+
+}
+
+.number03{
+    h2{
+        background-image: linear-gradient(23deg,#010e35 , rgb(0, 32, 175));
+        border: 7px inset rgb(0, 19, 123);
+    }
+}
+
+.number04{
+    h2{
+        background-image: linear-gradient(23deg,#431a00 , rgb(234, 109, 0));
+        border: 7px inset rgb(214, 101, 2);
+    }
+}
+
+.number05{
+    h2{
+        background-image: linear-gradient(23deg,#431a00 , rgb(110, 73, 9));
+        border: 7px inset rgb(61, 30, 2);
+    }
+}
+
+.number06{
+    h2{
+        background-image: linear-gradient(23deg,#140912 , rgb(213, 9, 141));
+        border: 7px inset rgb(101, 1, 81);
+    }
+}
+.number07{
+    h2{
+        background-image: linear-gradient(23deg,#2a052d , rgb(135, 8, 140));
+        border: 7px inset rgb(36, 0, 32);
+    }
+
+}
+.number08{
+    h2{
+        background-image: linear-gradient(23deg,#000608 , rgb(8, 251, 255));
+        border: 7px inset rgb(7, 180, 219);
+    }
+}
+.number09{
+    h2{
+        background-image: linear-gradient(23deg,#0a0a0a , rgb(7, 244, 90));
+        border: 7px inset rgb(15, 127, 60);
+    }
+}
+
+.img_ps{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo_01{
+    display: none;
+}
+
+
+/*++++++++++iconos++++++++*/
+.img_pers{
+    img{
+        height: 200px;
+        width: 200px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 100px;
+        box-shadow: 10px 10px 25px black;
+        cursor: pointer;
+    }
+}
+
+.img01{
+    transition: all 2s;
+}
+
+
+.box01:hover{
+    transform: scale(1.4);
+}
+
+.img_pers{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 30px;
+    padding: 25px;
+}

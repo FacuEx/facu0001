@@ -1,0 +1,87 @@
+.texto02{
+    h1{
+        color: #e6e6e6; 
+        text-align: center;
+        font-size: nth($font-size, 4 );
+        background-color: #FFEA95;
+        background-image: linear-gradient(45deg, rgb(43, 43, 46),rgb(11, 97, 246));
+        border: 7px inset #fbfbfb;
+        font-family: 'Lobster', cursive;
+        padding: 15px;
+        margin: auto;
+    }
+}
+
+.sagas{
+    h2{
+        color: #e6e6e6;
+        text-align: center;
+        font-size: nth($font-size, 4 );
+        background-color: #FFEA95;
+        background-image: linear-gradient(45deg, rgb(43, 43, 46),rgb(11, 97, 246));
+        border: 7px inset #fbfbfb;
+        font-family: 'Lobster', cursive;
+        padding: 15px;
+        margin: auto;
+    }
+}
+
+.col-md-4{
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+h5 {
+    font-size: 2.25rem;
+}
+/*++++++++++++++episodios++++++++++++++*/
+.card-body{
+    p{
+        font-size: 20px;
+    }
+}
+
+.col-md-4{
+    img{
+        width: 210px;
+        height: 200px;
+        margin: 10px;
+    }
+}
+.img-fluid {
+    max-width: 95%;
+    height: auto;
+}
+
+/*+++++++++imagenes de saga - carousel+++++++++*/
+.carousel-item {
+    img{
+        height: auto;
+        width: auto;
+    }
+}
+
+.carousel-inner {
+    border: 4px solid rgb(9, 9, 9);
+    border-radius: 40px;
+}
+
+.carousel-caption{
+    p{
+        font-size: 25px;
+    }
+}
+
+.carousel-caption{
+    h5{
+        font-size: 50px;
+    }
+}
+
+/*++++++++++++++pagination+++++++++++++++++*/
+.contenedor_navi{
+    display: flex;
+    justify-content: center;
+}
