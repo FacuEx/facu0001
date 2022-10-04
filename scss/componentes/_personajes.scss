@@ -128,6 +128,7 @@
 .img_ps{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .photo_01{
@@ -145,6 +146,7 @@
         border-radius: 100px;
         box-shadow: 10px 10px 25px black;
         cursor: pointer;
+        
     }
 }
 
@@ -159,9 +161,10 @@
 
 .img_pers{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     margin: 30px;
     padding: 25px;
+    justify-items: center
 }

@@ -48,6 +48,10 @@ nav ul {
   list-style: none;
 }
 
+body {
+  background-image: linear-gradient(90deg, rgb(41, 41, 49), rgb(245, 245, 245));
+}
+
 .navbar {
   width: auto;
   margin: auto;
@@ -381,11 +385,12 @@ h5 {
 
 .img_pers {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 10px;
   margin: 30px;
   padding: 25px;
+  justify-items: center;
 }
 
 footer {
@@ -403,9 +408,9 @@ footer {
   nav ul {
     gap: 5px;
   }
-  .inicio_img img {
-    width: 600px;
-    height: 569px;
+  .card-group {
+    display: grid;
+    flex-flow: row wrap;
   }
   /*++++++++++++++++++anime-manga+++++++++++++++++*/
   .capitulos ul li {
@@ -420,6 +425,28 @@ footer {
     flex-direction: column;
     display: flex;
     align-items: center;
+  }
+  .carousel-item img {
+    height: 500px;
+    width: auto;
+  }
+  .texto02 h1 {
+    font-size: 65px;
+  }
+  .sagas h2 {
+    font-size: 65px;
+  }
+  .pagination {
+    flex-direction: row;
+  }
+  .card-body h5 {
+    font-size: 4.25rem;
+  }
+  .card-body p {
+    font-size: 30px;
+  }
+  .img-fluid {
+    height: 400px;
   }
   /*++++++++++++++++++peliculas++++++++++++++*/
   .article01 {
@@ -467,7 +494,7 @@ footer {
   }
   /*pie de pagina*/
   footer {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
