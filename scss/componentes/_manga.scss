@@ -12,36 +12,23 @@
     }
 } 
 
-.capitulos{
-    ul{
-        margin: 20px;
-        @extend %disposicion;
-        text-decoration: none;
-        list-style: none;
-        li{
-            a{
-                background-color: #57c5f4;
-                border: 2px solid rgb(18, 84, 227);
-                font-size: 25px;
-                margin: 5px;
-                padding: 5px;
-                border-radius: 25px;
-                text-decoration: none;
-                font-family: 'Lobster', cursive;
-            }
+.img_mang{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    a{
+        img{
+            margin: 8px;
+            width: 250px;
+            height: 350px;
         }
     }
 }
 
-.mang01{
-    margin: 30px;
-    @extend %disposicion;
-}
-.mang01{
-    img{
-        margin: 8px;
-        width: 350px;
-        height: 480px;
-        box-shadow: 10px 10px 25px black;
-    }
+.mg{
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: center;
 }

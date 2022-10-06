@@ -24,14 +24,10 @@
     height: 550px;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid #a9a6a6;
+    border: 1px solid #000000;
     padding: 15px;
-}
-
-.contenedor_peliculas{
     a{
-        background-color: #57c5f4;
-        border: 2px solid rgb(18, 84, 227);
+        color: #FFEA95;
         font-size: 25px;
         margin: 5px;
         padding: 5px;
@@ -41,16 +37,27 @@
     }
 }
 
+
 .contenedor_peliculas{
     img{
         width: 360px;
         height: 460px;
+        
     }
 }
 
 .contenedor_peliculas{
     h2{
-        font-size: 12px;
+        font-size: 13px;
         text-decoration: none;
     }
+}
+
+.img02{
+    transition: all 2s;
+}
+
+
+.box02:hover{
+    transform: scale(1.4);
 }

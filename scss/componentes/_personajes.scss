@@ -138,6 +138,13 @@
 
 /*++++++++++iconos++++++++*/
 .img_pers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 30px;
+    padding: 25px;
+    justify-items: center;
     img{
         height: 200px;
         width: 200px;
@@ -157,14 +164,4 @@
 
 .box01:hover{
     transform: scale(1.4);
-}
-
-.img_pers{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-    margin: 30px;
-    padding: 25px;
-    justify-items: center
 }

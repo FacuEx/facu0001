@@ -4,4 +4,7 @@ footer{
     font-family: 'Lobster', cursive;
     font-size: 20px;
     @extend %disposicion_02;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    justify-content: center;
 }
