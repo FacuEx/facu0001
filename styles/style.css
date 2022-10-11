@@ -187,7 +187,7 @@ nav ul {
 
 /*+++++++++imagenes de saga - carousel+++++++++*/
 .carousel-item img {
-  height: auto;
+  height: 900px;
   width: auto;
 }
 
@@ -202,10 +202,22 @@ nav ul {
   border-radius: 40px;
 }
 .carousel-caption p {
-  font-size: 25px;
+  font-size: 22px;
 }
 .carousel-caption p h5 {
   font-size: 50px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+}
+
+.card-body p {
+  font-size: 22px;
+}
+
+.card-body h5 {
+  font-size: 30px;
 }
 
 .full-mode {
