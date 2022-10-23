@@ -4,10 +4,12 @@
 
 }
 
+
 body{
-    background-image: linear-gradient(90deg, $bg-cuarto, $bg-quinto, $bg-sexto);
+    background-image: linear-gradient(180deg, $bg-cuarto, $bg-quinto, $bg-sexto);
     width: auto;
 }
+
 
 nav{
     display: flex;
@@ -20,6 +22,8 @@ nav{
         list-style: none;
     }
 }
+
+
 .nav_02{
     display:none;
 
@@ -67,6 +71,7 @@ nav{
     background-image: linear-gradient(90deg, $bg-principal, $bg-secundario, $bg-terciario);
 }
 
+
 .p-4 {
     display: flex;
     justify-content: center;
@@ -75,10 +80,12 @@ nav{
     border: 10px inset white;
 }
 
+
 .bg-dark {
     background-image: linear-gradient(90deg, $bg-principal, $bg-secundario, $bg-terciario);
     border: 10px inset white;
 }
+
 
 .navbar-dark{
     .navbar-toggler{
@@ -92,6 +99,7 @@ nav{
     }
 }
 
+
 .contenedor{
     border: 7px inset #b50606;
     display: flex;
@@ -103,6 +111,7 @@ nav{
 
 }
 
+
 .logo{
     height:110px;
     margin: 5px;
@@ -110,6 +119,3 @@ nav{
     cursor: pointer;
 }
 
-.card{
-    background-color: transparent;
-}

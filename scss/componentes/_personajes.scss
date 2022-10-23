@@ -9,6 +9,7 @@
     border: 7px inset rgb(80, 165, 34);
 }
 
+
 .order2 {
     p{
         height: auto;
@@ -18,8 +19,11 @@
         padding: 15px;
         display: flex;
         justify-content: center;
+        background-color: #cfbba0;
+        border-radius: 20px;
     }
 }
+
 
 .order2 {
     h2{
@@ -32,6 +36,7 @@
     }
 }
 
+
 .order2 {
     h3{
         font-family: 'Lobster', cursive;
@@ -42,6 +47,7 @@
     }
 }
 
+
 .order2 {
     h4{
         color: firebrick;
@@ -50,6 +56,7 @@
         text-align: center;
     }
 }
+
 
 .order2 {
     img{
@@ -70,6 +77,7 @@
 
 }
 
+
 .number02{
     h2{
         background-image: linear-gradient(23deg,#0f0f0f , rgb(5, 183, 11));
@@ -78,12 +86,14 @@
 
 }
 
+
 .number03{
     h2{
         background-image: linear-gradient(23deg,#010e35 , rgb(0, 32, 175));
         border: 7px inset rgb(0, 19, 123);
     }
 }
+
 
 .number04{
     h2{
@@ -92,6 +102,7 @@
     }
 }
 
+
 .number05{
     h2{
         background-image: linear-gradient(23deg,#431a00 , rgb(110, 73, 9));
@@ -99,12 +110,15 @@
     }
 }
 
+
 .number06{
     h2{
         background-image: linear-gradient(23deg,#140912 , rgb(213, 9, 141));
         border: 7px inset rgb(101, 1, 81);
     }
 }
+
+
 .number07{
     h2{
         background-image: linear-gradient(23deg,#2a052d , rgb(135, 8, 140));
@@ -112,12 +126,16 @@
     }
 
 }
+
+
 .number08{
     h2{
         background-image: linear-gradient(23deg,#000608 , rgb(8, 251, 255));
         border: 7px inset rgb(7, 180, 219);
     }
 }
+
+
 .number09{
     h2{
         background-image: linear-gradient(23deg,#0a0a0a , rgb(7, 244, 90));
@@ -125,11 +143,13 @@
     }
 }
 
+
 .img_ps{
     display: flex;
     justify-content: space-around;
     
 }
+
 
 .photo_01{
     display: none;
@@ -156,6 +176,7 @@
         
     }
 }
+
 
 .img01{
     transition: all 2s;
